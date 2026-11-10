@@ -1,0 +1,37 @@
+# Environment files (never commit real credentials)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Build output
+/bin/
+/app
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test and coverage output
+*.test
+*.out
+coverage.html
+
+# Profiling
+*.pprof
+*.fiber.gz
+*.fasthttp.gz
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
+
+# Dependencies
+vendor/
+
+# Go workspace files
+go.work
+go.work.sum
